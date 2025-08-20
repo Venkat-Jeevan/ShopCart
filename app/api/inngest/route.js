@@ -4,7 +4,7 @@ import { inngest, inngestClient, inngestClientDelete, inngestClientUpdate  } fro
 // Create an API that serves zero functions
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [
+  functions: [  
     inngestClient,
     inngestClientUpdate,
     inngestClientDelete
